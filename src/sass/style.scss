@@ -88,12 +88,12 @@ hr {
 }
 @media (min-width: 328px ) and (max-width: 768px){
   	.work-item {
-  		width: 48%;
+  		width: 100%;
   	}
 }
 @media (min-width: 768px ){
   	.work-item {
-  		width: 100%;
+  		width: 30%;
   	}
   	.container {
   		max-width: 1200px;
