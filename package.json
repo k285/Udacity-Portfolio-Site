@@ -1,0 +1,23 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "Udacity-Portfolio-Site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/direction123/Udacity-Portfolio-Site.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/direction123/Udacity-Portfolio-Site/issues"
+  },
+  "homepage": "https://github.com/direction123/Udacity-Portfolio-Site#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-sass": "^1.2.1"
+  }
+}
