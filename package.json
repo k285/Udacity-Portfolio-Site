@@ -18,6 +18,8 @@
   "homepage": "https://github.com/direction123/Udacity-Portfolio-Site#readme",
   "devDependencies": {
     "grunt": "^1.0.1",
-    "grunt-sass": "^1.2.1"
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-sass": "^1.2.1",
+    "load-grunt-tasks": "^3.5.2"
   }
 }
