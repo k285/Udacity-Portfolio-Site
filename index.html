@@ -12,7 +12,10 @@
     <header>
       <div class="row">
         <div class="header-logo">
-          <img class="header-logo-image" src="images/logo.png" alt="FW">
+          <picture>
+            <source media="(min-width: 768px)" srcset="images/logo-140_large.png">
+            <img  class="header-logo-image" src="images/logo-100_small.png" alt="FW">
+          </picture>
         </div>
         <div class="header-title">
           <h1 class="text-uppercase header-name">Fangxiang Wang</h1>
@@ -21,7 +24,8 @@
       </div>
     </header>
     <section class="section">
-      <img src="images/banner.jpg" alt="Coder">
+      <img src="images/banner-1600_large.jpg" srcset="images/banner-800_small.jpg 1x, images/banner-1600_large.jpg 2x"
+       alt="Coder">
     </section>
     <section class="section">
       <h1 class="work-title">Featured Work</h1>
