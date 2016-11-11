@@ -17,6 +17,26 @@ module.exports = function (grunt) {
 	        options: {
 	          engine: 'im',
 	          sizes: [{
+	            width: 650,
+	            suffix: '_small',
+	            quality: 50
+	          }]
+	        },
+	        files: [{
+	          expand: true,
+	          src: ['portfolio*.png'],
+	          cwd: 'images_src/',
+	          dest: 'images/'
+	        }]
+	      },
+	      banner_image: {
+	        options: {
+	          engine: 'im',
+	          sizes: [{
+	            width: 1600,
+	            suffix: '_large',
+	            quality: 50
+	          },{
 	            width: 800,
 	            suffix: '_small',
 	            quality: 50
@@ -24,7 +44,27 @@ module.exports = function (grunt) {
 	        },
 	        files: [{
 	          expand: true,
-	          src: ['*.{jpg,}'],
+	          src: ['banner.jpg'],
+	          cwd: 'images_src/',
+	          dest: 'images/'
+	        }]
+	      },
+	      logo_image: {
+	        options: {
+	          engine: 'im',
+	          sizes: [{
+	            width: 140,
+	            suffix: '_large',
+	            quality: 50
+	          },{
+	            width: 100,
+	            suffix: '_small',
+	            quality: 50
+	          }]
+	        },
+	        files: [{
+	          expand: true,
+	          src: ['logo.png'],
 	          cwd: 'images_src/',
 	          dest: 'images/'
 	        }]
